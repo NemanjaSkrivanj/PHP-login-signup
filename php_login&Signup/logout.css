@@ -1,0 +1,14 @@
+#logout 
+{
+    text-decoration: none;
+    width:50px;
+    background-color:rgb(255, 166, 0);
+    color:white;
+    padding:8px 12px;
+    border-radius:10px;
+}
+
+#logout:hover
+{
+    filter:brightness(120%);
+}

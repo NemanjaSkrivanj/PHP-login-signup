@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+.bg
+{
+    background-image: url("slike/bcgrnd.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo img 
+{
+    margin-left:13%;
+    margin-top:2%;
+    height:100px;
+}
+
+.fleksalica
+{
+    display:flex;
+}
+
+.levi, .desni
+{
+    flex:1;
+}
+
+.levi h1 
+{
+    font-size:30px;
+    padding-top:3%;
+    text-align: center;
+    padding-left:10%;
+    color:white;
+}
+
+.desni form
+{
+    background: hsla(0,0%,100%,.24);
+    z-index: 1;
+    overflow: hidden;
+    margin-top:5%;
+    margin-left:18%;
+    width:70%;
+}
+
+#forma 
+{
+    display:flex;
+}
+
+#forma h1, #forma h2 
+{
+    font-weight:300;
+    color:white;
+    flex:1;
+}
+
+#forma h1 
+{
+    font-size:35px;
+    padding-top:5%;
+    padding-left:15%;
+}
+
+#forma h2 
+{
+    font-size:18px;
+    padding-top:8.5%;
+    padding-left:20%;
+}
+
+#forma h2 a 
+{
+    text-decoration: none;
+    color:white;
+}
+
+#tekstforme 
+{
+    padding-left:15%;
+    color:white;
+    font-size:20px;
+}
+
+
+#input 
+{
+    color:white;
+    background-color: transparent;
+    margin-left:15%;
+    border:0;
+    border-bottom:1px solid ghostwhite;
+}
+
+input[type=submit]
+{
+    margin-top:5%;
+    margin-left:24%;
+    background-color: #4caf50;
+    width:55%;
+    display:block;
+    color:White;
+    font-size:20px;
+    font-weight: 500;
+    padding:8px 0;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover
+{
+    cursor: pointer;
+    filter: brightness(120%);
+    transition: 0.1s ease-in;
+}
+
+#forma2
+{
+    margin-top:5%;
+    display:flex;
+}
+
+#check, #zabloz
+{
+    flex:1;
+}
+
+#check p, input[type=checkbox]
+{
+    display:inline-block;
+    color:white;
+    font-size:17px;
+    font-weight: 200;
+    
+}
+
+input[type=checkbox]
+{
+    margin-left: 10%;
+}
+
+#zabloz p, #zabloz a
+{
+    margin-top:-5px;
+    color:white;
+    font-size:17px;
+    margin-left:30%;
+    text-decoration: none;
+}
+
+.fleksufleksu
+{
+    margin-left:20%;
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.fleksufleksu div
+{
+    margin-top:2%;   
+    color:white;
+}
+
+.fleksufleksu div img 
+{
+    padding-left:25%;
+    height: 70px;
+}
+
+#donjifleks
+{
+    margin-top:50px;
+}
